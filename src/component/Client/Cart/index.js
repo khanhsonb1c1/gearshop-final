@@ -151,7 +151,7 @@ export default function ShopingCart(props) {
                                     <div className="col">
                                         <h4><b>Giỏ hàng</b></h4>
                                     </div>
-                                    <div className="col align-self-center text-right text-muted">{cartProduct.reduce((item1, item2) => {return item1.quality + item2.quality}, 0)} sản phẩm</div>
+                                   
                                 </div>
                             </div>
                             {cartProduct.map((cartItem, cartIndex) => {
